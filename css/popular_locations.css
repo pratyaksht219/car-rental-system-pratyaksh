@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+    background:radial-gradient(rgb(35, 178, 192), aliceblue, rgb(35, 178, 192))
+}
+.div3_heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* margin: 10px auto; */
+    padding: 10px auto;
+    text-decoration: none;
+    text-overflow: ellipsis;
+}
+
+.top_flex,.bottom_flex{
+    display: flex;
+    /* justify-content:space-evenly; */
+    justify-content: center;
+}
+
+.dest1,.dest2,.dest3,.dest4{
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid rgb(18, 104, 157);
+    border-radius: 5px;
+    max-width: 40%;
+    margin: 10px;
+    background: linear-gradient(rgb(175, 226, 236),white,rgb(174, 225, 236));
+    background-color: rgb(223, 237, 249);
+    padding-top: 20px;
+    /* padding: 40px; */
+}
+.dest_content{
+    /* margin: 0.8em; */
+    /* padding: 0.8em; */
+    padding: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: small;
+    /* width: fit-content; */
+}
+
+
+.dest_heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+
+
+img{
+    height: 80%;
+    /* width: 50%; */
+    width: 40%;
+    margin: 10px;
+    /* padding-top: 10px; */
+    border-style: ridge;
+    border-width: 3px;
+    border-color: black;
+    padding: auto;
+    
+}
+.popular{
+    color: black;
+
+}
+.popular:hover{
+    color: cornflowerblue;
+}
+

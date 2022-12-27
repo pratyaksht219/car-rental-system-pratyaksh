@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background:radial-gradient(rgb(0, 146, 32),white,rgb(0,146,32));
+    /* border-style: groove; */
+    border-radius: 5px;
+    border-width: 5px;
+    /* border-color: black; */
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.page_title{
+    text-align: center;
+    /* border-style: groove; */
+    border-radius: 5px;
+    background-color: lightblue;
+    margin: 5px;
+    padding: 0 5px;
+    border: 3px groove black;
+}
+.title{
+    font-size: 20px;
+    padding-bottom: 1px;
+    margin-bottom: 0%;
+}
+.subtitle{
+    font-weight: 600;
+    color: rgb(13, 102, 98);
+    padding-top: 1px;
+    margin-top: 0%;
+}
+
+.nav_ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_items{
+    display: block;
+    border: 2px groove black;
+    /* border-radius:5px; */
+    margin: 2px;
+    /* border-color: black; */
+}
+.nav_link{
+    font-weight: 600;
+    color: rgb(13, 102, 98);
+    display: inline-block;
+    background-color: rgb(164, 205, 249);
+    padding: 10px;
+    text-decoration: none;
+    /* border: 3px solid black; */
+    border-collapse: collapse;
+}
+.nav_link:hover{
+    background-color: rgb(14, 103, 99);
+    color: rgb(184, 215, 249);
+    /* border: 2px solid black; */
+}
+.nav_link:active{
+    color: rgb(176, 125, 48);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    height: 30rem;
+
+}
+.image{
+    /* border: 15px solid gray;ss */
+    width: 100%;
+    height: 100%;
+    padding: auto;
+    background-image: url(/HD-wallpaper-cars-blue-car-indian-cars-landscapes-mountain-mountains-sky-snow-top.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    /* border-style: groove; */
+    border: 5px  solid black;
+    border-radius: 5px;
+    border-image-width: 5px;
+    
+}
+.subheading{
+    color: rgb(220, 250, 250);
+    font-size: xx-large;
+}
+
+.span{
+    color: indigo;
+}

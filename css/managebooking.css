@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    background: radial-gradient(rgb(0, 166, 255),white,rgb(0, 166, 255));
+}
+.label{
+    padding: 5px;
+    font-weight: 600;
+}
+.form_container{
+    border: 5px solid gray;
+    background: url(/wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    width: 70%;
+}
+
+form{
+    text-align: center;
+}
+.btn{
+    padding: 5px;
+}
+.choose{
+    color: black;
+    font-weight: bolder;
+}
